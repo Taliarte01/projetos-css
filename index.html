@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Utilizando CSS</title>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      #css-interno {
+        color: green;
+        font-size: 18px;
+        font-style: italic;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Forma de aplicar o CSS</h1>
+    <p style="color: red; font-size: 16px">
+      O CSS inline é usado para dar estilo a um elemento HTML específico. Para
+      este estilo de CSS você somente vai precisar adicionar o atributo style
+      para cada tag HTML, sem usar os seletores.
+    </p>
+    <p id="css-interno">
+      O CSS interno ou incorporado requer que você adicione a tags "style" na
+      seção "head" do seu documento HTML. Este estilo de CSS é um método efetivo
+      de estilizar uma única página. Contudo, usar esse estilo em múltiplas
+      páginas pode consumir muito tempo, já que você precisa definir as regras
+      CSS para cada página do seu site.
+    </p>
+    <p id="css-externo">
+      Com o CSS externo, você vai linkar as páginas da internet com um arquivo
+      .css externo. Este tipo de CSS é um método mais eficiente, especialmente
+      se você está estilizando um site grande. Ao editar um arquivo .css, você
+      pode modificar um site inteiro de uma só vez.
+    </p>
+  </body>
+</html>
