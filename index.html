@@ -7,10 +7,15 @@
     <title>Utilizando CSS</title>
     <link rel="stylesheet" href="index.css" />
     <style>
-      #css-interno {
+      p[id='css-interno'] {
         color: green;
         font-size: 18px;
         font-style: italic;
+      }
+
+      p[id='css-interno']:hover {
+        text-decoration: underline;
+        text-decoration-color: purple;
       }
     </style>
   </head>
@@ -23,17 +28,18 @@
       para cada tag HTML, sem usar os seletores.
     </p>
     <p id="css-interno">
-      O CSS interno ou incorporado requer que você adicione a tags "style" na
-      seção "head" do seu documento HTML. Este estilo de CSS é um método efetivo
-      de estilizar uma única página. Contudo, usar esse estilo em múltiplas
-      páginas pode consumir muito tempo, já que você precisa definir as regras
-      CSS para cada página do seu site.
+      O CSS interno ou incorporado requer que você adicione a tags
+      <span class="tags">style</span> na seção <span class="tags">head</span> do
+      seu documento HTML. Este estilo de CSS é um método efetivo de estilizar
+      uma única página. Contudo, usar esse estilo em múltiplas páginas pode
+      consumir muito tempo, já que você precisa definir as regras CSS para cada
+      página do seu site.
     </p>
     <p id="css-externo">
-      Com o CSS externo, você vai linkar as páginas da internet com um arquivo
-      .css externo. Este tipo de CSS é um método mais eficiente, especialmente
-      se você está estilizando um site grande. Ao editar um arquivo .css, você
-      pode modificar um site inteiro de uma só vez.
+      Com o <span>CSS externo</span>, você vai linkar as páginas da internet com
+      um arquivo .css externo. Este tipo de CSS é um método mais eficiente,
+      especialmente se você está estilizando um site grande. Ao editar um
+      arquivo .css, você pode modificar um site inteiro de uma só vez.
     </p>
   </body>
 </html>
