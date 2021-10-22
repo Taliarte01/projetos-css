@@ -1,0 +1,41 @@
+div {
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  margin: 20px;
+  padding-top: 50px;
+}
+
+#box1 {
+  background: blue;
+}
+
+#box2 {
+  background: blue;
+  font-size: 30px;
+  background-color: rgba(117, 190, 218, 0.5);
+}
+
+#box3 {
+  background: linear-gradient(
+    105deg,
+    rgba(130, 218, 16, 0.309) 39%,
+    rgb(12, 204, 201) 96%
+  );
+}
+
+#box4 {
+  background: orange;
+  background-image: url(arvore.jpg);
+  background-repeat: no-repeat;
+  background-position: top 50px right 100px;
+}
+
+#box5 {
+  background: green;
+  background-image: url(arvore.jpg);
+  background-repeat: repeat-x;
+  background-position: top 50px right 100px;
+}
