@@ -1,0 +1,12 @@
+img {
+  width: 400px;
+}
+
+div {
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  overflow: hidden;
+  box-shadow: 3px 3px red, -1em 0 0.4em olive;
+  margin: 40px;
+}
