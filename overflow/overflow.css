@@ -1,0 +1,29 @@
+.img1 {
+  width: 200px;
+  border: 1px solid red;
+}
+
+div {
+  border: 1px solid #000;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 150px;
+}
+
+#box-visible {
+  overflow: visible;
+}
+
+#box-hidden {
+  overflow: hidden;
+}
+
+#box-scroll {
+  overflow: scroll;
+  margin-bottom: 50px;
+}
+
+#box-auto {
+  overflow: auto;
+  margin-bottom: 50px;
+}
