@@ -1,0 +1,15 @@
+.frontend {
+  list-style: circle;
+}
+
+.frontend + ul > li {
+  list-style-type: decimal-leading-zero;
+}
+
+.backend {
+  list-style: disc;
+}
+
+.backend + ul > li {
+  list-style-type: upper-alpha;
+}
