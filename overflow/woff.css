@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'alexbrush-regular-webfont';
+  src: url('fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+    url('fonts/alexbrush-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'kaushanscript-regular-webfont';
+  src: url('fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
+    url('fonts/kaushanscript-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: 'alexbrush-regular-webfont';
+}
+
+h1 {
+  color: blueviolet;
+  text-align: center;
+  font-family: 'kaushanscript-regular-webfont';
+}
+
+h1::first-letter {
+  text-decoration: underline;
+}
+
+#css-externo {
+  color: steelblue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tags {
+  font-weight: bold;
+  color: red;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+p > span {
+  font-weight: bold;
+  color: red;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
